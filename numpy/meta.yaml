@@ -18,11 +18,11 @@ requirements:
     - openblas
 
 build:
-  number: 102
+  number: 103
 
   features:
     - nomkl
-  # - openblas
+    - openblas
 
 about:
   home: https://www.numpy.org
