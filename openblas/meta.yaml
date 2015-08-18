@@ -1,19 +1,19 @@
 package:
   name: openblas
-  version: 0.2.15
+  version: 0.2.18
 
 source:
-  fn: openblas-0.2.15.tgz
-  url: http://github.com/xianyi/OpenBLAS/tarball/v0.2.15
+  fn: openblas-0.2.18.tgz
+  url: http://github.com/xianyi/OpenBLAS/tarball/v0.2.18
 
 build:
-  number: 102
+  number: 100
 
-  features:
-    - nomkl
+#  features:
+#    - nomkl
 
-  track_features:
-    - openblas
+#  track_features:
+#    - openblas
 
 requirements:
   build:
