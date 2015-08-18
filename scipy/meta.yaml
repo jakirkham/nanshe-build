@@ -21,11 +21,11 @@ requirements:
     - numpy
 
 build:
-  number: 102
+  number: 106
 
   features:
     - nomkl
-    - openblas
+  # - openblas
 
 about:
   home: https://www.scipy.org
