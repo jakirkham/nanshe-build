@@ -28,10 +28,50 @@ source:
 
 requirements:
   build:
+    - certifi
+    - jinja2
+    - jsonschema
+    - libsodium
+    - markupsafe
+    - mistune
+    - openssl
+    - ptyprocess
+    - pygments
     - python
+    - python.app
+    - pyzmq
+    - readline
+    - setuptools
+    - sqlite
+    - ssl_match_hostname
+    - terminado
+    - tk
+    - tornado
+    - zeromq
+    - zlib
 
   run:
+    - certifi
+    - jinja2
+    - jsonschema
+    - libsodium
+    - markupsafe
+    - mistune
+    - openssl
+    - ptyprocess
+    - pygments
     - python
+    - python.app
+    - pyzmq
+    - readline
+    - setuptools
+    - sqlite
+    - ssl_match_hostname
+    - terminado
+    - tk
+    - tornado
+    - zeromq
+    - zlib
 
 test:
   # Python imports
