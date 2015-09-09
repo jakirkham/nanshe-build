@@ -1,7 +1,7 @@
-diff --git a/IPython/html/notebookapp.py b/IPython/html/notebookapp.py
+diff --git IPython/html/notebookapp.py IPython/html/notebookapp.py
 index 0464144..094812b 100644
---- a/IPython/html/notebookapp.py
-+++ b/IPython/html/notebookapp.py
+--- IPython/html/notebookapp.py
++++ IPython/html/notebookapp.py
 @@ -158,7 +158,9 @@ def init_settings(self, ipython_app, kernel_manager, contents_manager,
              _template_path = (_template_path,)
          template_path = [os.path.expanduser(path) for path in _template_path]
@@ -13,10 +13,10 @@ index 0464144..094812b 100644
          env = Environment(loader=FileSystemLoader(template_path), **jenv_opt)
          
          sys_info = get_sys_info()
-diff --git a/IPython/html/templates/notebook.html b/IPython/html/templates/notebook.html
+diff --git IPython/html/templates/notebook.html IPython/html/templates/notebook.html
 index 947bf0b..0d8ebc1 100644
---- a/IPython/html/templates/notebook.html
-+++ b/IPython/html/templates/notebook.html
+--- IPython/html/templates/notebook.html
++++ IPython/html/templates/notebook.html
 @@ -265,7 +265,10 @@
                          {% for helplinks in sections %}
                              {% for link in helplinks %}
@@ -37,11 +37,11 @@ index 947bf0b..0d8ebc1 100644
 +    sys_info = {{sys_info|safe}};
  </script>
  
- <script src="{{ static_url("components/text-encoding/lib/encoding.js") }}" charset="utf-8"></script>
-diff --git a/IPython/parallel/controller/mongodb.py b/IPython/parallel/controller/mongodb.py
+ <script src="{{ static_url("components/text-encoding/liencoding.js") }}" charset="utf-8"></script>
+diff --git IPython/parallel/controller/mongodb.py IPython/parallel/controller/mongodb.py
 index 416f97f..9019dcf 100644
---- a/IPython/parallel/controller/mongodb.py
-+++ b/IPython/parallel/controller/mongodb.py
+--- IPython/parallel/controller/mongodb.py
++++ IPython/parallel/controller/mongodb.py
 @@ -11,7 +11,10 @@
  #  the file COPYING, distributed as part of this software.
  #-----------------------------------------------------------------------------
@@ -83,10 +83,10 @@ index 416f97f..9019dcf 100644
          if not self.database:
              self.database = self.session
          self._db = self._connection[self.database]
-diff --git a/examples/Notebook/JavaScript Notebook Extensions.ipynb b/examples/Notebook/JavaScript Notebook Extensions.ipynb
+diff --git examples/Notebook/JavaScript Notebook Extensions.ipynb examples/Notebook/JavaScript Notebook Extensions.ipynb
 index 2fe4c8f..d0a5121 100644
---- a/examples/Notebook/JavaScript Notebook Extensions.ipynb	
-+++ b/examples/Notebook/JavaScript Notebook Extensions.ipynb	
+--- examples/Notebook/JavaScript Notebook Extensions.ipynb	
++++ examples/Notebook/JavaScript Notebook Extensions.ipynb	
 @@ -4,30 +4,30 @@
     "cell_type": "markdown",
     "metadata": {},
