@@ -1,14 +1,14 @@
 package:
   name: ipython
-  version: "3.2.1"
+  version: "3.2.1+ccf11df"
 
 source:
   fn: ipython-3.2.1.tar.gz
   url: https://pypi.python.org/packages/source/i/ipython/ipython-3.2.1.tar.gz
   md5: 61c2d5665ff1bd65eceb19fa7f1b23c7
-#  patches:
+  patches:
    # List any patch files here
-   # - fix.patch
+   - 3_x_x.patch
 
 # build:
   # noarch_python: True
