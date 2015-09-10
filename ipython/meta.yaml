@@ -39,7 +39,7 @@ requirements:
     - ptyprocess
     - pygments
     - python
-    - python.app
+    - python.app  # [osx]
     - pyzmq
     - readline
     - setuptools
@@ -63,7 +63,7 @@ requirements:
     - ptyprocess
     - pygments
     - python
-    - python.app
+    - python.app  # [osx]
     - pyzmq
     - readline
     - setuptools
