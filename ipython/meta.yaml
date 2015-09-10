@@ -1,6 +1,6 @@
 package:
   name: ipython
-  version: "3.2.1+9.ccf11df"
+  version: "3.2.1.9+ccf11df"
 
 source:
   fn: ipython-3.2.1.tar.gz
