@@ -1,7 +1,7 @@
-diff --git a/kernel/x86_64/dscal_microk_haswell-2.c b/kernel/x86_64/dscal_microk_haswell-2.c
+diff --git kernel/x86_64/dscal_microk_haswell-2.c kernel/x86_64/dscal_microk_haswell-2.c
 index 07a9c80..e7df0fc 100644
---- a/kernel/x86_64/dscal_microk_haswell-2.c
-+++ b/kernel/x86_64/dscal_microk_haswell-2.c
+--- kernel/x86_64/dscal_microk_haswell-2.c
++++ kernel/x86_64/dscal_microk_haswell-2.c
 @@ -140,67 +140,23 @@ static void dscal_kernel_8( BLASLONG n, FLOAT *alpha, FLOAT *x)
  
  static void dscal_kernel_8_zero( BLASLONG n, FLOAT *alpha, FLOAT *x) __attribute__ ((noinline));
