@@ -1,12 +1,10 @@
 package:
   name: numpy
-  version: 1.10.4
+  version: 1.11.0b1
 
 source:
-  url: https://github.com/numpy/numpy/archive/v1.10.4.tar.gz
-  fn: numpy-1.10.4.tar.gz
-  patches:
-    - syrk_cblasfuncs.c.patch
+  url: https://github.com/numpy/numpy/archive/v1.11.0b1.tar.gz
+  fn: numpy-1.11.0b1.tar.gz
 
 requirements:
   build:
@@ -20,7 +18,7 @@ requirements:
     - openblas
 
 build:
-  number: 106
+  number: 100
 
   features:
     - nomkl
