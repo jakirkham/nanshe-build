@@ -7,13 +7,13 @@ source:
   url: http://github.com/xianyi/OpenBLAS/tarball/v0.2.18
 
 build:
-  number: 100
+  number: 101
 
-#  features:
-#    - nomkl
+  features:
+    - nomkl
 
-#  track_features:
-#    - openblas
+  track_features:
+    - openblas
 
 requirements:
   build:
