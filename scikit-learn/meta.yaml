@@ -23,11 +23,11 @@ requirements:
     - scipy
 
 build:
-  number: 106
+  number: 107
 
   features:
     - nomkl
-  # - openblas
+    - openblas
 
 about:
   home: http://scikit-learn.org/
