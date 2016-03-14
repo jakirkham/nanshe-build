@@ -23,11 +23,11 @@ requirements:
     - python
 
 build:
-  number: 100
+  number: 104
 
   features:
     - nomkl
-    - openblas
+  # - openblas
 
 test:
   imports:
